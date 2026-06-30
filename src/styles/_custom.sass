@@ -7,11 +7,11 @@
   &-2
     animation: float1 2.8s ease-in-out infinite alternate
     position: absolute
-    top: 51%
-    right: 30%
+    top: 8%
+    right: 49%
 
 @keyframes float1
-  0%
+  0%  
     transform: translateY(20px)
   100%
     transform: translateY(0px)
@@ -21,27 +21,361 @@
   background-position: left 50% !important
 
 .titulo-principal.color-acento-contenido .titulo-principal__numero span
-  color: $color-sistema-texto !important
+  color: white !important
 
 .banner-interno__titulo__icono i
   color: $color-primario
 
-figcaption, table caption
+figcaption
   font-weight: normal
 
 .banner-principal__row .banner-principal__img
-  width: 500px !important
+  width: 550px !important
   @media screen and (max-width: $bp-max-xl)
     width: 400px !important
 
+.titulo-principal.color-acento-contenido .titulo-principal__numero span
+  color: $color-sistema-texto !important
 .banner-interno__fondo
   background-image: url("../assets/curso/banner_interno.png") !important
-  background-color: $color-primario !important
+  background-color: #DEEAFF!important
 .banner-principal .tarjeta
   @media screen and (max-width: $bp-max-md)
     background-image: url("../assets/curso/portada/fondo-banner-principal-sm.png") !important
   @media screen and (max-width: $bp-max-xs)
     background-image: url("../assets/curso/portada/fondo-banner-principal-xs.png") !important
 
-.text-end 
-    text-align: left !important
+//////////Background_Color///////////
+.bg-color
+  &-1
+    background-color: #E9ECF2 !important
+  &-2
+    background-color: #FCEDF9
+  &-3
+    background-color: #F6F6F6
+  &-4
+    background-color: #EEF2FD
+  &-5
+    background-color: #C2D0F8 !important
+  &-6
+    background-color: #EEF2FD !important
+  &-7
+    background-color: #E1E7FB
+  &-8
+    background-color: #F4F5F8
+  &-9
+    background-color: #FCF3DA
+  &-10
+    background-color: #DEEAFF !important
+  &-11
+    background-color: #F1F6F9
+  &-12
+    background-color: #E0E8FC
+  &-13
+    background-color: #DEE4F0 !important
+  &-14
+    color: #F4B400 !important
+  &-15
+    background-color: #F1F6FF
+  &-16
+    background-color: #FFF4D6 !important
+  &-17
+    background-color: #E2E7F7
+  &-18
+    background-color: #F0F3FD
+  &-19
+    background-color: #FFF8E3
+  &-20
+    background-color: #EBF7FF
+  &-21
+    background-color: #FBDDF4 !important
+  &-22
+    background-color: #FCEDF9
+    border: 3px solid #EC5ACA
+  &-23
+    color: #678AEE !important
+  &-24
+    background-color: #F0F3FD
+    border-bottom-left-radius: 20px
+    border-bottom-right-radius: 20px
+  &-25
+    background-color: #E1E7FB
+    border: 3px solid #678AEE
+  &-26
+    color: #EC5ACA !important
+  &-27
+    background-color: #F8FAFF
+  &-28
+    background-color: #F4F5F6
+  &-29
+    background-color: #FFF3D1
+  &-30
+    background-color: #678AEE
+    border-radius: 15px 15px 0 0
+  &-31
+    background-color: #EC5ACA
+    border-radius: 15px 15px 0 0
+  &-32
+    background-color: #678AEE
+  &-white
+    background-color: white !important
+    border: 1px solid $lightest-gray
+  &-secundario
+    background-color: $color-secundario !important
+  &-sintesis
+    background-color: #F6F6F6
+
+///////Full Width Background///////////////////
+.bg-full-width
+  background-size: cover
+  background-repeat: no-repeat
+  background-position: bottom
+  margin-inline: -3.3rem
+  @media screen and (max-width: $bp-max-sm)
+    padding-left: 1.5rem
+    padding-right: 1.5rem
+.bg-full-width-2
+  background-size: contain
+  background-repeat: no-repeat
+  background-position: bottom
+  margin-inline: -3.3rem
+  @media screen and (max-width: $bp-max-sm)
+    padding-left: 1.5rem
+    padding-right: 1.5rem
+
+///////////////fondos/////////////////
+.bg-fondo
+  &-1
+    background-image: url("../assets/curso/bg1.png") !important
+    background-position: top
+  &-2
+    background-image: url("../assets/curso/bg2.png") !important
+    background-position: top
+  &-slider
+    background-image: url("../assets/curso/bg-slider.png") !important
+    background-position: bottom
+
+/////////IMG_100%_CAJON_MEDIO/////////
+.pst
+  position: relative
+  z-index: 2
+.banner-text
+  background-color: #F1F6FF
+  border-radius: 10px
+  padding: 20px 30px
+  margin-top: -60px
+  @media screen and (max-width: $bp-max-sm)
+    margin-top: -10px
+
+///////////////TABLAS/////////////////// 
+.tbl
+  table td
+    text-align: start !important
+  th, td, table thead th, .tabla-a th 
+    border: 2px solid #B5B5B5
+  table
+    table-layout: auto
+
+table caption
+  font-weight: 400
+
+//////////////posicion img avatar//////////
+.pst-1
+  top: 0
+  right: -8%
+  &-1
+    top: -25px
+    left: -25px
+    @media screen and ( max-width: $bp-max-xs )
+      top: -25px
+      left: 80%
+
+//////////////CUSTOM AVATAR-LEFT//////////////
+.tarjeta-avatar-b__img
+  min-width: 25%
+  @media screen and ( max-width: $bp-max-sm )
+    min-width: auto
+.tarjeta--azul 
+  background-color: #F0F3FD
+  border: 3px solid #678AEE
+
+.boton.color-acento-botones *
+  color: $color-sistema-texto !important
+
+//////// Card hover ////////////
+.crd_hover_txt
+  position: relative  
+  padding: 0 !important
+  overflow: hidden !important  
+  &:hover    
+    .crd_hover_txt--body   
+      transition: all 0.5s cubic-bezier(0.42, 0, 0.58, 1) 
+      transform: translateY(0)
+      background-color: #C2D0F8
+      h4
+        color: $color-sistema-texto
+
+  .crd_hover_txt--body
+    position: absolute
+    padding: 1.2rem
+    bottom: 0    
+    transition: all 0.5s cubic-bezier(0.42, 0, 0.58, 1)
+    transform: translateY(calc( 100% - 3.85rem ))
+    background-color: #C2D0F8
+    text-align: center
+    width: 100%
+    h4
+      color: $color-sistema-texto
+  
+  @media (min-width:1200px) and (max-width:1400px)  
+    .crd_hover_txt--body
+      p
+        font-size: 0.85em
+
+//CLASES TITULOS//
+.titulo-con-imagen
+  display: flex
+  align-items: center
+  position: relative
+.titulo-con-imagen__fondo
+  background-color: #EAE7F0
+  border-radius: 20px
+  padding: 10px 20px
+  display: inline-flex
+  align-items: center
+.titulo-con-imagen__imagen
+  position: absolute
+  left: 0px
+  width: 100px
+.titulo-con-imagen__texto
+  margin: 0
+  padding-left: 80px
+
+//////////CUSTOM BOTONES SLYDER-F/////////
+.slyder-f__btn
+  height: 35px
+  width: 35px
+  max-width: 35px
+  background-color: $color-acento-botones
+  border-radius: 50%
+  padding: 0 !important
+  margin: 0 auto
+  .fa-chevron-left
+    font-size: 20px
+  .fa-chevron-right
+    font-size: 20px
+  
+.slyder-f
+    align-items: center
+
+    .slyder-f__main
+      width: 70%
+
+      @media (min-width: 769px)
+        width: 80%
+
+////////SOMBRA CAJON//////////
+.box-shadow
+  background-color: #F6F6F6;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1); /* Sombra suave */
+  padding: 20px;
+  border-radius: 10px; /* Opcional, para bordes redondeados */
+
+//////////////CUSTOM TABS-A/////////////
+.tabs-a.color-acento-botones .tabs-a__tab__selected 
+  background-color: #FFD256
+  color: $color-sistema-texto
+.tabs-a__tab
+  background-color: #F1F6FF
+.tarjeta.color-acento-botones--borde
+  background-color: #E2E7F7
+  border: solid 4px #E2E7F7
+////////////AJUSTE TAMAÑO CONTERNEDOR IZQUIERO TABS-A//////////
+.tabs-a
+  @media (min-width: 1200px) 
+    .row
+      .col-xl-3 
+        flex: 0 0 auto
+        width: 48%
+      .col-xl-9
+        flex: 0 0 auto
+        width: 52%
+  @media (min-width: 992px) 
+    .row
+      .col-lg-4 
+        flex: 0 0 auto
+        width: 41%
+      .col-lg-8 
+        flex: 0 0 auto
+        width: 59%
+      
+/////////////ACORDION/////////////
+.acordion__accion__btn--a
+  background-color: #FFD256 !important
+  color: $color-sistema-texto !important
+.acordion__activo
+  background-color: #F4F5F6 !important
+.acordion_titulo
+  color: #fff !important
+.acordion__titulo 
+  h3
+    color: $color-sistema-texto  !important
+.acordion__activo
+  .acordion__titulo 
+    h3
+      color: $color-sistema-texto !important
+
+//////////////CUSTON SLYDER-A////////
+.slyder-a__bullets__item 
+  background-color: #CAD6F9
+  border: #CAD6F9
+.slyder-a__bullets__item--active
+  background-color: #678AEE
+.slyder-a__btn--atrs, .slyder-a__btn--sigt
+  background-color: #F4B400
+
+//////////////CUSTOM TABS-A/////////////
+.tabs-a.color-acento-botones .tabs-a__tab__selected 
+  background-color: #FFD256
+.tabs-a.color-acento-botones .tabs-a__tab__selected:before 
+    background-color: #FFD256
+.tabs-a__tab
+  background-color: #F1F6FF
+.tarjeta.color-acento-botones--borde
+  background-color: #E2E7F7
+  border: solid 4px #E2E7F7
+.tabs-a.color-acento-botones .tabs-a__tab:hover, .tabs-a.color-acento-botones .tabs-a__tab:active, .tabs-a.color-acento-botones .tabs-a__tab:focus 
+    background-color: #FFD256
+    color: $color-sistema-texto
+
+////////////AJUSTE TAMAÑO CONTERNEDOR IZQUIERO TABS-A//////////
+.tabs-a
+  @media (min-width: 1200px) 
+    .row
+      .col-xl-3 
+        flex: 0 0 auto
+        width: 38%
+      .col-xl-9
+        flex: 0 0 auto
+        width: 62%
+  @media (min-width: 992px) 
+    .row
+      .col-lg-4 
+        flex: 0 0 auto
+        width: 51%
+      .col-lg-8 
+        flex: 0 0 auto
+        width: 49%
+      
+.bloque-texto-b.color-secundario:before 
+    background-color: #FFF9E2
+  
+/////////CUSTOM TABS-C//////////
+.tabs-c__header 
+  margin-bottom: 0
+.tabs-c__content-item
+  background-color: #F6F6F6
+
+.pst-pestana
+  top: -23%
+  left: 10%

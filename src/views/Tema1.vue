@@ -348,7 +348,7 @@
           .row(titulo="Comercialización").justify-content-center
             .col-xl.mb-3.mb-xl-0
               p.ms-md-5 Gestiona los canales de venta, distribución, precios, experiencia de compra y relación con compradores.
-              p.ms-md-5.mb-0 <b>Ejemplo aplicado</b>: venta en tienda física, comercio electrónico, ferias comerciales, marketplace o showrooms.
+              p.ms-md-5.mb-0 <b>Ejemplo aplicado</b>: venta en tienda física, comercio electrónico, ferias comerciales, <em>marketplace</em> o <em>showrooms</em>.
             .col-md-8.col-xl-auto
               figure
                 img(src="@/assets/curso/tema1/26.png")

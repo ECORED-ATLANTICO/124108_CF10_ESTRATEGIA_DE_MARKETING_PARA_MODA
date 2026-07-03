@@ -124,17 +124,17 @@
     
     .row.justify-content-center.align-items-center.z-2.mb-5
       .col-lg-10(data-aos="fade-up")
-        p.banner-text Los productos desde la publicidad de moda se entienden como aquellas propuestas de vestuario que adquieren valor a través de la comunicación estratégica. En el sistema moda, la publicidad no solo informa, sino que construye significado alrededor del producto, generando deseo y posicionamiento. Esto implica que el valor del producto no depende únicamente de sus características físicas, sino de la forma en que es presentado al consumidor.  Desde una perspectiva empresarial, la publicidad de moda utiliza recursos visuales, narrativos y emocionales para conectar con el público objetivo. Campañas desarrolladas por marcas como Dior evidencian cómo la imagen, el storytelling y la dirección artística transforman un producto en un objeto aspiracional. Esto demuestra que la publicidad es una herramienta clave para diferenciar productos en mercados saturados. 
+        p.banner-text Los productos desde la publicidad de moda se entienden como aquellas propuestas de vestuario que adquieren valor a través de la comunicación estratégica. En el sistema moda, la publicidad no solo informa, sino que construye significado alrededor del producto, generando deseo y posicionamiento. Esto implica que el valor del producto no depende únicamente de sus características físicas, sino de la forma en que es presentado al consumidor.  Desde una perspectiva empresarial, la publicidad de moda utiliza recursos visuales, narrativos y emocionales para conectar con el público objetivo. Campañas desarrolladas por marcas como Dior evidencian cómo la imagen, el <em>storytelling</em> y la dirección artística transforman un producto en un objeto aspiracional. Esto demuestra que la publicidad es una herramienta clave para diferenciar productos en mercados saturados. 
     
     .bg-color-2.tarjeta.p-4.mb-5
-      p.mb-0 Además, la publicidad de moda se ha transformado con la digitalización, integrando redes sociales, influencers y plataformas de comercio electrónico. Esto ha permitido una comunicación más directa y personalizada, donde el consumidor participa activamente en la construcción del significado del producto. Así, las marcas deben diseñar estrategias que integren creatividad, tecnología y conocimiento del consumidor para lograr impacto en el mercado. 
+      p.mb-0 Además, la publicidad de moda se ha transformado con la digitalización, integrando redes sociales, <em>influencers</em> y plataformas de comercio electrónico. Esto ha permitido una comunicación más directa y personalizada, donde el consumidor participa activamente en la construcción del significado del producto. Así, las marcas deben diseñar estrategias que integren creatividad, tecnología y conocimiento del consumidor para lograr impacto en el mercado. 
     
     .titulo-con-imagen.mb-5(data-aos="fade-right")
       .titulo-con-imagen__fondo
         img.titulo-con-imagen__imagen(src="@/assets/componentes/1.svg")
         h3.titulo-con-imagen__texto Caso aplicado. Productos desde la publicidad de moda 
     
-    p.mb-5 Una marca de ropa lanza una campaña en redes sociales utilizando influencers locales. A través de contenido audiovisual atractivo, logra aumentar la visibilidad de sus productos y posicionarse en un segmento juvenil, incrementando sus ventas en un 40 % durante la temporada. 
+    p.mb-5 Una marca de ropa lanza una campaña en redes sociales utilizando <em>influencers</em> locales. A través de contenido audiovisual atractivo, logra aumentar la visibilidad de sus productos y posicionarse en un segmento juvenil, incrementando sus ventas en un 40 % durante la temporada. 
 
     .row.justify-content-center
       .col-lg-10

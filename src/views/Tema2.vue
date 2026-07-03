@@ -136,7 +136,7 @@
               img(src="@/assets/curso/tema2/12.png", alt="alt")
           .crd_hover_txt--body
             h4.mb-3 Prendas interiores
-            p Mantienen contacto directo con el cuerpo y requieren mayor precisión en confort, ajuste y material.
+            p Mantienen contacto directo con el cuerpo y requieren mayor precisión en <em>confort</em>, ajuste y material.
             p.mb-0 <b>Requerimientos técnicos frecuentes</b>: uso de textiles suaves, elásticos, costuras planas, control de tallaje y acabados no abrasivos.
 
       .col-xl-4.col-lg-6.col-md-9.col-11.mb-4.mb-xl-0
@@ -208,7 +208,7 @@
               .col-xl.mb-3.mb-xl-0
                 h4 Calzado formal
                 p Capellada estructurada, suela, tacón, forro, plantilla y acabados de superficie.
-                p.mb-0 <b>Criterios técnicos de calidad</b>: precisión de armado, simetría de piezas, resistencia, presentación del material y confort.
+                p.mb-0 <b>Criterios técnicos de calidad</b>: precisión de armado, simetría de piezas, resistencia, presentación del material y <em>confort</em>.
               .col-md-auto
                 figure
                   img(src="@/assets/curso/tema2/19.png")
@@ -459,14 +459,14 @@
     .titulo-con-imagen.mb-5(data-aos="fade-right")
       .titulo-con-imagen__fondo
         img.titulo-con-imagen__imagen(src="@/assets/componentes/1.svg")
-        h3.titulo-con-imagen__texto Series cortas o drops
+        h3.titulo-con-imagen__texto Series cortas o <em>drops</em>
     
     .row.justify-content-center.align-items-center.mb-5
       .col-lg-4.mb-3.mb-lg-0
         figure
           img(src="@/assets/curso/tema2/30.png", data-aos="zoom-in")
       .col-lg-8
-        p Las series cortas, también denominadas drops en algunos contextos comerciales, agrupan productos lanzados en cantidades limitadas y durante periodos breves. Su propósito se relaciona con la generación de expectativa, exclusividad, urgencia de compra, diferenciación y actualización rápida del portafolio. Este tipo de serie resulta frecuente en marcas que trabajan con lanzamientos digitales, colaboraciones, cápsulas creativas o estrategias de comunicación centradas en comunidad.
+        p Las series cortas, también denominadas <em>drops</em> en algunos contextos comerciales, agrupan productos lanzados en cantidades limitadas y durante periodos breves. Su propósito se relaciona con la generación de expectativa, exclusividad, urgencia de compra, diferenciación y actualización rápida del portafolio. Este tipo de serie resulta frecuente en marcas que trabajan con lanzamientos digitales, colaboraciones, cápsulas creativas o estrategias de comunicación centradas en comunidad.
         .bg-color-4.tarjeta.p-4
           p.mb-0 A diferencia de las series largas, las series cortas no buscan permanencia prolongada. Su lógica responde a disponibilidad limitada, narrativa específica y circulación rápida. Por esta razón, requieren una coordinación precisa entre diseño, producción, comunicación y venta, ya que el impacto comercial depende del momento de lanzamiento, la claridad del mensaje y la capacidad de activar interés en el consumidor. Entre las más importantes características de las series cortas, tenemos:
     

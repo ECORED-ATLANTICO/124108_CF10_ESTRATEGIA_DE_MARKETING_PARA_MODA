@@ -148,8 +148,8 @@
     
     .tarjeta.bg-color-12.p-4.mb-5
       .row.justify-content-around.align-items-center
-        .col-auto
-          img(src="@/assets/curso/tema1/15.svg")
+        .col-md-auto
+          img.d-none.d-md-block(src="@/assets/curso/tema1/15.svg")
         .col
           .row.justify-content-between.align-items-center
             .col.mb-3.mb-sm-0
@@ -258,9 +258,9 @@
     p.mb-5 El sistema moda puede clasificarse desde diferentes criterios, según el propósito del análisis. Para el estudio técnico y productivo del sector, resultan relevantes cuatro formas de clasificación: por cadena de valor, por sector productivo, por nivel de mercado y por temporalidad del producto; como se muestra a continuación:
     
 
-    .row.justify-content-center.align-items-center
-      .col-lg-8.order-lg-2
-        SlyderF(columnas="col-12 col-lg-6").p-4
+    .row.justify-content-center.align-items-center.mb-5
+      .col-lg-8.order-lg-2.mb-3.mb-lg-0
+        SlyderF(columnas="col-12 col-xl-6").p-md-4
           .bg-color-3.p-4.h-100.box-shadow
             img(src='@/assets/curso/tema1/20.svg' alt='AvatarTop' , style="max-width: 90px").mx-auto.mb-3
             h4.text-center.mb-4.bg-color-2.p-2 Según la cadena de valor
@@ -303,32 +303,32 @@
           img(src="@/assets/curso/tema1/20.png", data-aos="zoom-in")
       .col-lg-8
         AcordionA(tipo="a" clase-tarjeta="tarjeta bg-color-34")
-          .row(titulo="Investigación")
-            .col-lg
-              p.ms-5 Reúne información sobre tendencias, consumidores, materiales, contexto cultural y comportamiento del mercado.
-              p.ms-5.mb-0 <b>Ejemplo aplicado</b>: análisis de estilos de vida, necesidades de uso, referentes culturales y cambios en hábitos de consumo.
-            .col-lg-auto
+          .row(titulo="Investigación").justify-content-center
+            .col-xl.mb-3.mb-xl-0
+              p.ms-md-5 Reúne información sobre tendencias, consumidores, materiales, contexto cultural y comportamiento del mercado.
+              p.ms-md-5.mb-0 <b>Ejemplo aplicado</b>: análisis de estilos de vida, necesidades de uso, referentes culturales y cambios en hábitos de consumo.
+            .col-md-8.col-xl-auto
               figure
                 img(src="@/assets/curso/tema1/21.png")
-          .row(titulo="Diseño")
-            .col-lg
-              p.ms-5 Define concepto, siluetas, materiales, paleta cromática, detalles constructivos y propuesta de producto.
-              p.ms-5.mb-0 <b>Ejemplo aplicado</b>: desarrollo de una colección de prendas casuales orientada a un segmento juvenil urbano.
-            .col-lg-auto
+          .row(titulo="Diseño").justify-content-center
+            .col-xl.mb-3.mb-xl-0
+              p.ms-md-5 Define concepto, siluetas, materiales, paleta cromática, detalles constructivos y propuesta de producto.
+              p.ms-md-5.mb-0 <b>Ejemplo aplicado</b>: desarrollo de una colección de prendas casuales orientada a un segmento juvenil urbano.
+            .col-md-8.col-xl-auto
               figure
                 img(src="@/assets/curso/tema1/22.png")
-          .row(titulo="Desarrollo técnico")
-            .col-lg
-              p.ms-5 Traduce la idea de diseño en especificaciones productivas, fichas técnicas, patronaje, prototipos y pruebas.
-              p.ms-5.mb-0 <b>Ejemplo aplicado</b>: elaboración de moldes, muestras, tabla de medidas, ficha de insumos y ruta operacional.
-            .col-lg-auto
+          .row(titulo="Desarrollo técnico").justify-content-center
+            .col-xl.mb-3.mb-xl-0
+              p.ms-md-5 Traduce la idea de diseño en especificaciones productivas, fichas técnicas, patronaje, prototipos y pruebas.
+              p.ms-md-5.mb-0 <b>Ejemplo aplicado</b>: elaboración de moldes, muestras, tabla de medidas, ficha de insumos y ruta operacional.
+            .col-md-8.col-xl-auto
               figure
                 img(src="@/assets/curso/tema1/23.png")
-          .row(titulo="Producción")
-            .col-lg
-              p.ms-5 Ejecuta los procesos de corte, confección, ensamble, acabados, revisión y empaque.
-              p.ms-5.mb-0 <b>Ejemplo aplicado</b>: fabricación seriada de camisas, pantalones, chaquetas, bolsos o calzado según orden de producción.
-            .col-lg-auto
+          .row(titulo="Producción").justify-content-center
+            .col-xl.mb-3.mb-xl-0
+              p.ms-md-5 Ejecuta los procesos de corte, confección, ensamble, acabados, revisión y empaque.
+              p.ms-md-5.mb-0 <b>Ejemplo aplicado</b>: fabricación seriada de camisas, pantalones, chaquetas, bolsos o calzado según orden de producción.
+            .col-md-8.col-xl-auto
               figure
                 img(src="@/assets/curso/tema1/24.png")
     
@@ -338,32 +338,32 @@
           img(src="@/assets/curso/tema1/29.png", data-aos="zoom-in")
       .col-lg-8.order-lg-1
         AcordionA(tipo="a" clase-tarjeta="tarjeta bg-color-34")
-          .row(titulo="Comunicación")
-            .col-lg
-              p.ms-5 Construye mensajes de marca, campañas, catálogos, contenidos digitales, narrativa de producto y estrategias publicitarias.
-              p.ms-5.mb-0 <b>Ejemplo aplicado</b>: lanzamiento de una colección mediante campaña comercial, redes sociales y material promocional.
-            .col-lg-auto
+          .row(titulo="Comunicación").justify-content-center
+            .col-xl.mb-3.mb-xl-0
+              p.ms-md-5 Construye mensajes de marca, campañas, catálogos, contenidos digitales, narrativa de producto y estrategias publicitarias.
+              p.ms-md-5.mb-0 <b>Ejemplo aplicado</b>: lanzamiento de una colección mediante campaña comercial, redes sociales y material promocional.
+            .col-md-8.col-xl-auto
               figure
                 img(src="@/assets/curso/tema1/28.png")
-          .row(titulo="Comercialización")
-            .col-lg
-              p.ms-5 Gestiona los canales de venta, distribución, precios, experiencia de compra y relación con compradores.
-              p.ms-5.mb-0 <b>Ejemplo aplicado</b>: venta en tienda física, comercio electrónico, ferias comerciales, marketplace o showrooms.
-            .col-lg-auto
+          .row(titulo="Comercialización").justify-content-center
+            .col-xl.mb-3.mb-xl-0
+              p.ms-md-5 Gestiona los canales de venta, distribución, precios, experiencia de compra y relación con compradores.
+              p.ms-md-5.mb-0 <b>Ejemplo aplicado</b>: venta en tienda física, comercio electrónico, ferias comerciales, marketplace o showrooms.
+            .col-md-8.col-xl-auto
               figure
                 img(src="@/assets/curso/tema1/26.png")
-          .row(titulo="Consumo")
-            .col-lg
-              p.ms-5 Comprende la adquisición, uso, cuidado, reparación y apropiación cultural del producto.
-              p.ms-5.mb-0 <b>Ejemplo aplicado</b>: uso de una prenda según ocasión, estilo de vida, identidad personal o necesidad funcional.
-            .col-lg-auto
+          .row(titulo="Consumo").justify-content-center
+            .col-xl.mb-3.mb-xl-0
+              p.ms-md-5 Comprende la adquisición, uso, cuidado, reparación y apropiación cultural del producto.
+              p.ms-md-5.mb-0 <b>Ejemplo aplicado</b>: uso de una prenda según ocasión, estilo de vida, identidad personal o necesidad funcional.
+            .col-md-8.col-xl-auto
               figure
                 img(src="@/assets/curso/tema1/27.png")
-          .row(titulo="Posconsumo")
-            .col-lg
-              p.ms-5 Integra procesos de reutilización, reparación, reciclaje, reventa, donación o disposición final.
-              p.ms-5.mb-0 <b>Ejemplo aplicado</b>: programas de retorno de prendas, transformación de retales o reciclaje textil.
-            .col-lg-auto
+          .row(titulo="Posconsumo").justify-content-center
+            .col-xl.mb-3.mb-xl-0
+              p.ms-md-5 Integra procesos de reutilización, reparación, reciclaje, reventa, donación o disposición final.
+              p.ms-md-5.mb-0 <b>Ejemplo aplicado</b>: programas de retorno de prendas, transformación de retales o reciclaje textil.
+            .col-md-8.col-xl-auto
               figure
                 img(src="@/assets/curso/tema1/25.png")
 
@@ -379,9 +379,9 @@
         figure
           img(src="@/assets/curso/tema1/30.png", data-aos="zoom-in")
       .col-lg-8
-        .bg-fondo-slider-2.tarjeta.p-5
+        .bg-fondo-slider-2.tarjeta.p-2.p-md-5
           SlyderA(tipo="b").bg-color-white.p-4.tarjeta
-            div.justify-content-center.align-items-center.p-3.p-lg-4
+            div.justify-content-center.align-items-center.p-2.p-lg-4
               h4 Sector textil
               p Producción de fibras, hilos, telas, tejidos, acabados textiles y materiales técnicos.
               p.mb-0 <b>Relación con la formación técnica</b>: aporta conocimiento sobre composición, comportamiento, resistencia, textura, rendimiento y usos del material.
@@ -423,60 +423,60 @@
           img(src="@/assets/curso/tema1/31.png", data-aos="zoom-in")
       .col-lg-9
         TabsA.color-acento-botones
-          .row.tarjeta.color-acento-botones--borde.p-4(titulo="Alta costura")
-            .col-lg-6
+          .row.tarjeta.color-acento-botones--borde.p-4.justify-content-center(titulo="Alta costura")
+            .col-xl-6.mb-3.mb-xl-0
               h4 Alta costura
               p Productos exclusivos, elaborados a medida, con alto nivel artesanal y estrictos estándares técnicos.
               p.mb-0 <b>Tipo de producción</b>: personalizada, limitada y de alta especialización.
-            .col-lg-6
+            .col-md-8.col-xl-6.mb-3.mb-xl-0
               figure
                 img(src="@/assets/curso/tema1/32.png")
-          .row.tarjeta.color-acento-botones--borde.p-4(titulo="Lujo")
-            .col-lg-6
+          .row.tarjeta.color-acento-botones--borde.p-4.justify-content-center(titulo="Lujo")
+            .col-xl-6.mb-3.mb-xl-0
               h4 Lujo
               p Productos de alto valor simbólico, materiales seleccionados, posicionamiento premium y fuerte identidad de marca.
               p.mb-0 <b>Tipo de producción</b>: controlada, con énfasis en calidad, exclusividad y experiencia de marca.
-            .col-lg-6
+            .col-md-8.col-xl-6.mb-3.mb-xl-0
               figure
                 img(src="@/assets/curso/tema1/33.png")
-          .row.tarjeta.color-acento-botones--borde.p-4(titulo="Diseño de autor")
-            .col-lg-6
+          .row.tarjeta.color-acento-botones--borde.p-4.justify-content-center(titulo="Diseño de autor")
+            .col-xl-6.mb-3.mb-xl-0
               h4 Diseño de autor
               p Propuestas con identidad creativa definida, series reducidas y valor conceptual.
               p.mb-0 <b>Tipo de producción</b>: limitada, con énfasis en diferenciación, narrativa y desarrollo propio.
-            .col-lg-6
+            .col-md-8.col-xl-6.mb-3.mb-xl-0
               figure
                 img(src="@/assets/curso/tema1/34.png")
-          .row.tarjeta.color-acento-botones--borde.p-4(titulo="<em>Prêt-à-porter</em>")
-            .col-lg-6
+          .row.tarjeta.color-acento-botones--borde.p-4.justify-content-center(titulo="<em>Prêt-à-porter</em>")
+            .col-xl-6.mb-3.mb-xl-0
               h4 <em>Prêt-à-porter</em>
               p Prendas listas para usar, desarrolladas por tallas y colecciones de temporada.
               p.mb-0 <b>Tipo de producción</b>: seriada con estándares de calidad y diseño definidos.
-            .col-lg-6
+            .col-md-8.col-xl-6.mb-3.mb-xl-0
               figure
                 img(src="@/assets/curso/tema1/35.png")
-          .row.tarjeta.color-acento-botones--borde.p-4(titulo="Moda comercial")
-            .col-lg-6
+          .row.tarjeta.color-acento-botones--borde.p-4.justify-content-center(titulo="Moda comercial")
+            .col-xl-6.mb-3.mb-xl-0
               h4 Moda comercial
               p Productos orientados a mercados amplios, con equilibrio entre precio, funcionalidad y tendencia.
               p.mb-0 <b>Tipo de producción</b>: de escala media o alta, según demanda y canal de venta.
-            .col-lg-6
+            .col-md-8.col-xl-6.mb-3.mb-xl-0
               figure
                 img(src="@/assets/curso/tema1/36.png")
-          .row.tarjeta.color-acento-botones--borde.p-4(titulo="Moda masiva")
-            .col-lg-6
+          .row.tarjeta.color-acento-botones--borde.p-4.justify-content-center(titulo="Moda masiva")
+            .col-xl-6.mb-3.mb-xl-0
               h4 Moda masiva
               p Productos de alta rotación, precios accesibles y distribución amplia.
               p.mb-0 <b>Tipo de producción</b>: industrial en grandes volúmenes..
-            .col-lg-6
+            .col-md-8.col-xl-6.mb-3.mb-xl-0
               figure
                 img(src="@/assets/curso/tema1/37.png")
-          .row.tarjeta.color-acento-botones--borde.p-4(titulo="Moda rápida")
-            .col-lg-6
+          .row.tarjeta.color-acento-botones--borde.p-4.justify-content-center(titulo="Moda rápida")
+            .col-xl-6.mb-3.mb-xl-0
               h4 Moda rápida
               p Productos desarrollados en ciclos cortos, con respuesta acelerada a tendencias de consumo.
               p.mb-0 <b>Tipo de producción</b>: intensiva, alta rotación y renovación frecuente de referencias.
-            .col-lg-6
+            .col-md-8.col-xl-6.mb-3.mb-xl-0
               figure
                 img(src="@/assets/curso/tema1/38.png")
     
@@ -495,7 +495,7 @@
                 img(src="@/assets/curso/tema1/40.png", data-aos="zoom-in")
             .col-lg-7
               h2(data-aos="fade-left").mb-4 Pódcast
-              
+              p Lo invitamos al siguiente pódcast:
               TarjetaAudio.color-acento-botones.bg-color-white.mb-3(
                 texto="Pendiente vincular pódcast"
                 tiempo
@@ -526,8 +526,8 @@
 
     .tarjeta.bg-color-12.p-4.mb-5
       .row.justify-content-around.align-items-center
-        .col-auto
-          img(src="@/assets/curso/tema1/15.svg")
+        .col-md-auto
+          img.d-none.d-md-block(src="@/assets/curso/tema1/15.svg")
         .col
           .row.justify-content-between.align-items-center
             .col.mb-3.mb-sm-0
@@ -569,20 +569,20 @@
       .col-lg-9.order-lg-1
         AcordionA(tipo="a" clase-tarjeta="tarjeta bg-color-34")
           div(titulo="Consumidor clásico")
-            p.ms-5 Prefiere prendas atemporales, sobrias, funcionales y de larga permanencia en el guardarropa.
-            p.ms-5 <b>Relación con el producto de moda</b>: se relaciona con camisas, pantalones, blazers, vestidos estructurados, colores neutros, cortes limpios y materiales de buena durabilidad.
+            p.ms-md-5 Prefiere prendas atemporales, sobrias, funcionales y de larga permanencia en el guardarropa.
+            p.ms-md-5 <b>Relación con el producto de moda</b>: se relaciona con camisas, pantalones, blazers, vestidos estructurados, colores neutros, cortes limpios y materiales de buena durabilidad.
           div(titulo="Consumidor tradicional")
-            p.ms-5 Conserva hábitos de compra estables y evita cambios abruptos en siluetas, colores o estilos.
-            p.ms-5 <b>Relación con el producto de moda</b>: valora prendas conocidas, marcas confiables, ajustes convencionales y productos de uso cotidiano con baja dependencia de la tendencia.
+            p.ms-md-5 Conserva hábitos de compra estables y evita cambios abruptos en siluetas, colores o estilos.
+            p.ms-md-5 <b>Relación con el producto de moda</b>: valora prendas conocidas, marcas confiables, ajustes convencionales y productos de uso cotidiano con baja dependencia de la tendencia.
           div(titulo="Consumidor contemporáneo")
-            p.ms-5 Integra prendas actuales sin depender completamente de la moda rápida o de la tendencia extrema.
-            p.ms-5 <b>Relación con el producto de moda</b>: busca equilibrio entre actualización, funcionalidad, versatilidad y coherencia con su estilo personal.
+            p.ms-md-5 Integra prendas actuales sin depender completamente de la moda rápida o de la tendencia extrema.
+            p.ms-md-5 <b>Relación con el producto de moda</b>: busca equilibrio entre actualización, funcionalidad, versatilidad y coherencia con su estilo personal.
           div(titulo="Consumidor de tendencia")
-            p.ms-5 Sigue novedades del mercado, temporadas, referentes digitales, pasarelas, celebridades o influenciadores.
-            p.ms-5 <b>Relación con el producto de moda</b>: adopta prendas, colores, accesorios y siluetas que tienen alta circulación en medios, vitrinas, redes sociales y campañas comerciales.
+            p.ms-md-5 Sigue novedades del mercado, temporadas, referentes digitales, pasarelas, celebridades o influenciadores.
+            p.ms-md-5 <b>Relación con el producto de moda</b>: adopta prendas, colores, accesorios y siluetas que tienen alta circulación en medios, vitrinas, redes sociales y campañas comerciales.
           div(titulo="Consumidor innovador")
-            p.ms-5 Se interesa por propuestas nuevas, materiales alternativos, siluetas poco convencionales y marcas emergentes.
-            p.ms-5 <b>Relación con el producto de moda</b>: funciona como usuario inicial de productos con alto componente creativo, experimental o diferencial.
+            p.ms-md-5 Se interesa por propuestas nuevas, materiales alternativos, siluetas poco convencionales y marcas emergentes.
+            p.ms-md-5 <b>Relación con el producto de moda</b>: funciona como usuario inicial de productos con alto componente creativo, experimental o diferencial.
     
     .row.mb-5.align-items-center.justify-content-center
       .col-md-8.col-lg-3.mb-3.mb-lg-0
@@ -591,20 +591,20 @@
       .col-lg-9
         AcordionA(tipo="a" clase-tarjeta="tarjeta bg-color-34")
           div(titulo="Consumidor aspiracional")
-            p.ms-5 Compra productos asociados con reconocimiento, estatus, pertenencia social o proyección de imagen personal.
-            p.ms-5 <b>Relación con el producto de moda</b>: valora marcas visibles, acabados diferenciados, empaques cuidados, experiencia de compra y elementos simbólicos vinculados al prestigio.
+            p.ms-md-5 Compra productos asociados con reconocimiento, estatus, pertenencia social o proyección de imagen personal.
+            p.ms-md-5 <b>Relación con el producto de moda</b>: valora marcas visibles, acabados diferenciados, empaques cuidados, experiencia de compra y elementos simbólicos vinculados al prestigio.
           div(titulo="Consumidor funcional")
-            p.ms-5 Prioriza comodidad, resistencia, ajuste, facilidad de mantenimiento y utilidad de la prenda.
-            p.ms-5 <b>Relación con el producto de moda</b>: se orienta hacia productos versátiles, textiles durables, sistemas de cierre prácticos, siluetas cómodas y soluciones para actividades específicas.
+            p.ms-md-5 Prioriza comodidad, resistencia, ajuste, facilidad de mantenimiento y utilidad de la prenda.
+            p.ms-md-5 <b>Relación con el producto de moda</b>: se orienta hacia productos versátiles, textiles durables, sistemas de cierre prácticos, siluetas cómodas y soluciones para actividades específicas.
           div(titulo="Consumidor emocional")
-            p.ms-5 Establece vínculos afectivos con prendas, marcas, colores, recuerdos, experiencias o narrativas de diseño.
-            p.ms-5 <b>Relación con el producto de moda</b>: responde a productos con carga simbólica, relatos de origen, ediciones especiales o propuestas que conectan con su historia personal.
+            p.ms-md-5 Establece vínculos afectivos con prendas, marcas, colores, recuerdos, experiencias o narrativas de diseño.
+            p.ms-md-5 <b>Relación con el producto de moda</b>: responde a productos con carga simbólica, relatos de origen, ediciones especiales o propuestas que conectan con su historia personal.
           div(titulo="Consumidor consciente")
-            p.ms-5 Considera el impacto ambiental, las condiciones laborales, la trazabilidad, la durabilidad y el consumo responsable.
-            p.ms-5 <b>Relación con el producto de moda</b>: prefiere prendas sostenibles, materiales reciclados, producción local, segunda mano, reparación, reciclaje o propuestas de economía circular.
+            p.ms-md-5 Considera el impacto ambiental, las condiciones laborales, la trazabilidad, la durabilidad y el consumo responsable.
+            p.ms-md-5 <b>Relación con el producto de moda</b>: prefiere prendas sostenibles, materiales reciclados, producción local, segunda mano, reparación, reciclaje o propuestas de economía circular.
           div(titulo="Consumidor especializado")
-            p.ms-5 Requiere prendas o accesorios para actividades, entornos o necesidades concretas.
-            p.ms-5 <b>Relación con el producto de moda</b>: se relaciona con moda deportiva, laboral, técnica, inclusiva, ergonómica, protectora o diseñada para condiciones de uso específicas.
+            p.ms-md-5 Requiere prendas o accesorios para actividades, entornos o necesidades concretas.
+            p.ms-md-5 <b>Relación con el producto de moda</b>: se relaciona con moda deportiva, laboral, técnica, inclusiva, ergonómica, protectora o diseñada para condiciones de uso específicas.
     
     .titulo-con-imagen.mb-5(data-aos="fade-right")
       .titulo-con-imagen__fondo
@@ -620,9 +620,9 @@
     .bg-color-12.tarjeta.p-3
       p.text-center.mb-0 Cada perfil plantea necesidades distintas frente al diseño, los materiales, la comunicación y la experiencia de compra, entre los cuales tenemos:
     
-    .row.justify-content-center.align-items-center
+    .row.justify-content-center.align-items-center.mb-5.mb-lg-0
       .col-lg-8.order-lg-2
-        SlyderF(columnas="col-12 col-lg-6").p-4
+        SlyderF(columnas="col-12 col-xl-6").p-2.p-md-4
           .bg-color-3.p-4.h-100.box-shadow
             img(src='@/assets/curso/tema1/49.svg' alt='AvatarTop' , style="max-width: 90px").mx-auto.mb-3
             h4.text-center.mb-4.bg-color-2.p-2 Clásico
@@ -712,8 +712,8 @@
 
     .tarjeta.bg-color-12.p-4.mb-5
       .row.justify-content-around.align-items-center
-        .col-auto
-          img(src="@/assets/curso/tema1/15.svg")
+        .col-md-auto
+          img.d-none.d-md-block(src="@/assets/curso/tema1/15.svg")
         .col
           .row.justify-content-between.align-items-center
             .col.mb-3.mb-sm-0
@@ -736,8 +736,8 @@
         figure
           img(src="@/assets/curso/tema1/52.png", data-aos="zoom-in")
       .col-lg-8
-        .bg-fondo-slider-2.tarjeta.p-5
-          SlyderA(tipo="b").bg-color-white.p-4.tarjeta
+        .bg-fondo-slider-2.tarjeta.p-2.p-md-5
+          SlyderA(tipo="b").bg-color-white.p-2.p-md-4.tarjeta
             div.justify-content-center.align-items-center.p-3.p-lg-4
               h4 Colección de temporada
               p Responde a un periodo específico del calendario comercial, asociado a clima, tendencias o ciclos de compra.
@@ -779,8 +779,8 @@
     p.mb-5 La elaboración de una colección requiere una secuencia metodológica que conecte la investigación inicial con el producto terminado. Cada etapa aporta información para tomar decisiones técnicas, creativas y comerciales.
 
     .bg-fondo-slider.tarjeta.mb-5
-      .p-4.p-lg-5
-        SlyderA(tipo="b").bg-color-white.p-4.tarjeta
+      .p-2.p-md-5
+        SlyderA(tipo="b").bg-color-white.p-2.p-md-4.tarjeta
           .row.justify-content-center.align-items-center.p-3.p-lg-4
             .col-lg-4.mb-3.mb-lg-0.order-lg-2
               figure

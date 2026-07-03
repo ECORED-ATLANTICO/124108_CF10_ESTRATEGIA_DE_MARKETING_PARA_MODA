@@ -15,8 +15,8 @@
     
     separador
     
-    #t_1_1.titulo-segundo.color-acento-contenido(data-aos="flip-up")
-      h2 1.1 Imagen de moda 
+    #t_3_1.titulo-segundo.color-acento-contenido(data-aos="flip-up")
+      h2 3.1 Imagen de moda 
     
     .row.justify-content-center.align-items-center.mb-5
       .col-lg-3.mb-3.mb-lg-0

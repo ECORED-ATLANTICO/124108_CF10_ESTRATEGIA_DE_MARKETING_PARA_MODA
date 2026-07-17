@@ -58,8 +58,12 @@
                 figure
                   img(src="@/assets/curso/tema2/6.png")
     
-    p Las categorías de producto en el sistema moda corresponden a los diferentes grupos de bienes que integran la oferta del sector, como prendas de vestir, calzado, marroquinería, joyería, accesorios y artesanías. Su clasificación facilita la organización, el desarrollo y la comercialización de productos, permitiendo identificar sus características, funciones y oportunidades dentro de los distintos segmentos del mercado. 
-    p.mb-5 Categorías de producto en el sistema moda
+    p.mb-5 Las categorías de producto en el sistema moda corresponden a los diferentes grupos de bienes que integran la oferta del sector, como prendas de vestir, calzado, marroquinería, joyería, accesorios y artesanías. Su clasificación facilita la organización, el desarrollo y la comercialización de productos, permitiendo identificar sus características, funciones y oportunidades dentro de los distintos segmentos del mercado. 
+
+    .titulo-con-imagen.mb-5(data-aos="fade-right")
+      .titulo-con-imagen__fondo
+        img.titulo-con-imagen__imagen(src="@/assets/componentes/1.svg")
+        h3.titulo-con-imagen__texto Categorías de producto en el sistema moda
 
     .row.mb-5.align-items-center.justify-content-center
       .col-md-8.col-lg-3.mb-3.mb-lg-0
@@ -136,7 +140,7 @@
               img(src="@/assets/curso/tema2/12.png", alt="alt")
           .crd_hover_txt--body
             h4.mb-3 Prendas interiores
-            p Mantienen contacto directo con el cuerpo y requieren mayor precisión en <em>confort</em>, ajuste y material.
+            p Mantienen contacto directo con el cuerpo y requieren mayor precisión en confort, ajuste y material.
             p.mb-0 <b>Requerimientos técnicos frecuentes</b>: uso de textiles suaves, elásticos, costuras planas, control de tallaje y acabados no abrasivos.
 
       .col-xl-4.col-lg-6.col-md-9.col-11.mb-4.mb-xl-0
@@ -160,7 +164,7 @@
             p.mb-0m <b>Requerimientos técnicos frecuentes</b>: resistencia, funcionalidad, identificación, bolsillos, refuerzos, normativas aplicables y durabilidad.
     
     .bg-color-9.tarjeta.p-3.mb-5
-      p.mb-0 Nota: en el producto de prendas, la coherencia entre material y uso resulta determinante, dado que un textil con baja elasticidad no responde igual que un tejido de punto, un material liviano no ofrece el mismo comportamiento que una tela rígida y una prenda de uso laboral requiere criterios distintos a una prenda de ocasión social.
+      p.mb-0 <b>Nota</b>: en el producto de prendas, la coherencia entre material y uso resulta determinante, dado que un textil con baja elasticidad no responde igual que un tejido de punto, un material liviano no ofrece el mismo comportamiento que una tela rígida y una prenda de uso laboral requiere criterios distintos a una prenda de ocasión social.
     
     .tarjeta.bg-color-12.p-4.mb-5
       .row.justify-content-around.align-items-center
@@ -187,7 +191,10 @@
       .col-lg-10(data-aos="fade-up")
         p.banner-text El calzado y la marroquinería ocupan un lugar especializado dentro del sistema moda debido a sus exigencias estructurales, ergonómicas y materiales. Aunque ambos sectores pueden compartir insumos como cuero, sintéticos, textiles técnicos, adhesivos, hilos de alta resistencia y herrajes, cada producto responde a funciones y procesos constructivos particulares. El calzado se relaciona directamente con la protección, soporte y movilidad del pie, su desarrollo involucra horma, suela, capellada, forro, plantilla, contrafuerte, tacón, sistema de ajuste y acabados. La marroquinería, por su parte, comprende productos como bolsos, cinturones, billeteras, maletines, morrales, estuches y accesorios estructurados, cuyo desempeño depende de la resistencia del material, la capacidad de carga, los refuerzos, los sistemas de cierre y la calidad del ensamble.
     
-    p.mb-5 Tipologías de calzado y marroquinería
+    .titulo-con-imagen.mb-5(data-aos="fade-right")
+      .titulo-con-imagen__fondo
+        img.titulo-con-imagen__imagen(src="@/assets/componentes/1.svg")
+        h3.titulo-con-imagen__texto Tipologías de calzado y marroquinería
 
     .row.mb-5.justify-content-center.align-items-center
       .col-lg-4.mb-3.mb-lg-0
@@ -208,7 +215,7 @@
               .col-xl.mb-3.mb-xl-0
                 h4 Calzado formal
                 p Capellada estructurada, suela, tacón, forro, plantilla y acabados de superficie.
-                p.mb-0 <b>Criterios técnicos de calidad</b>: precisión de armado, simetría de piezas, resistencia, presentación del material y <em>confort</em>.
+                p.mb-0 <b>Criterios técnicos de calidad</b>: precisión de armado, simetría de piezas, resistencia, presentación del material y confort.
               .col-md-auto
                 figure
                   img(src="@/assets/curso/tema2/19.png")
@@ -470,7 +477,10 @@
         .bg-color-4.tarjeta.p-4
           p.mb-0 A diferencia de las series largas, las series cortas no buscan permanencia prolongada. Su lógica responde a disponibilidad limitada, narrativa específica y circulación rápida. Por esta razón, requieren una coordinación precisa entre diseño, producción, comunicación y venta, ya que el impacto comercial depende del momento de lanzamiento, la claridad del mensaje y la capacidad de activar interés en el consumidor. Entre las más importantes características de las series cortas, tenemos:
     
-    p.mb-5 Características de las series cortas
+    .titulo-con-imagen.mb-5(data-aos="fade-right")
+      .titulo-con-imagen__fondo
+        img.titulo-con-imagen__imagen(src="@/assets/componentes/1.svg")
+        h3.titulo-con-imagen__texto Características de las series cortas
 
     .row.mb-5.align-items-center.justify-content-center
       .col-md-8.col-lg-4.mb-3.mb-lg-0.order-lg-2
@@ -613,9 +623,9 @@
               h2(data-aos="fade-left").mb-4 Pódcast
               p Lo invitamos al siguiente pódcast:
               TarjetaAudio.color-acento-botones.bg-color-white.mb-3(
-                texto="Pendiente vincular pódcast"
+                texto="Del diseño al mercado, comprendiendo los productos del sistema moda."
                 tiempo
-                :audio="require('../assets/curso/podcast/podcast1.mp3')"
+                :audio="require('../assets/curso/podcast/podcast2.mp3')"
               )
 
 </template>

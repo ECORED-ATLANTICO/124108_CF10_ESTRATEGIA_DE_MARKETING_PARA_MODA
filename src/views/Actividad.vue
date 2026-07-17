@@ -23,7 +23,7 @@ export default {
         '<b> Objetivo:</b> verificar la comprensión del aprendiz sobre los conceptos del sistema moda mediante la resolución de preguntas de selección múltiple con única respuesta, a partir de la identificación de elementos clave desarrollados en el componente formativo relacionados con moda, colecciones, productos, mercados y estrategias comerciales.',
       barajarPreguntas: true,
       titulo_aprobado: '¡BUEN TRABAJO!',
-      titulo_reprobado: 'VUELVA A INTENTARLO.',
+      titulo_reprobado: 'VUELVA A INTENTARLO',
       preguntas: [
         {
           id: 1,

@@ -281,17 +281,6 @@ export default {
         'Zuluaga García, C. P., & Alvira Gómez, L. E. (2018). <em>Moda sostenible: Retos del siglo XXI en la enseñanza aprendizaje.</em> Editorial CUN.',
       link: 'https://repositorio.cun.edu.co/handle/cun/11064',
     },
-    {
-      referencia:
-        'Peña, S. (2009). <em>De los textiles a las apariencias: Los tránsitos de la moda en Colombia entre 1970 y 1999.</em> Academia.edu.',
-      link:
-        'https://www.academia.edu/75326169/Ense%C3%B1ar_y_aprender_moda_y_textil_en_el_siglo_XXI',
-    },
-    {
-      referencia:
-        'Zuluaga García, C. P., & Alvira Gómez, L. E. (2018). <em>Moda sostenible: Retos del siglo XXI en la enseñanza aprendizaje.</em> Editorial CUN.',
-      link: 'https://repositorio.cun.edu.co/handle/cun/11064',
-    },
   ],
   creditos: [
     {
@@ -300,7 +289,7 @@ export default {
         {
           nombre: 'Claudia Johanna Gómez Pérez',
           cargo:
-            'Profesional 06. Responsable del Ecosistema de Recursos Educativos Digitales',
+            'Responsable Nacional Ecosistema de Recursos Educativos Digitales (RED) - Profesional 06',
           centro: 'Centro Agroturistico - Regional Santander',
         },
         {
@@ -319,9 +308,14 @@ export default {
           centro: 'Centro de Comercio y Servicios - Regional Atlántico ',
         },
         {
-          nombre: 'Carolina Coca Salazar',
+          nombre: 'Paola Angélica Castro Salazar ',
+          cargo: ' Experta temática',
+          centro: 'Centro Agroturístico - Regional Santander',
+        },
+        {
+          nombre: 'Jair Coll Gallardo ',
           cargo: ' Evaluador instruccional ',
-          centro: 'Centro de Comercio y Servicios - Regional Atlántico  ',
+          centro: 'Centro de Comercio y Servicios - Regional Atlántico ',
         },
       ],
     },
@@ -329,7 +323,7 @@ export default {
       titulo: 'DISEÑO Y DESARROLLO DE RECURSOS EDUCATIVOS DIGITALES',
       autores: [
         {
-          nombre: 'Jesus Antonio Vecino Valero ',
+          nombre: 'Andrés Felipe Herrera Roldan  ',
           cargo: 'Diseñador de contenidos',
           centro: 'Centro de Comercio y Servicios - Regional Atlántico',
         },
@@ -340,6 +334,11 @@ export default {
         },
         {
           nombre: 'Nelson Iván Vera Briceño ',
+          cargo: 'Animador y productor audiovisual',
+          centro: 'Centro de Comercio y Servicios - Regional Atlántico',
+        },
+        {
+          nombre: 'Alexander Acosta ',
           cargo: 'Animador y productor audiovisual',
           centro: 'Centro de Comercio y Servicios - Regional Atlántico',
         },

@@ -22,7 +22,7 @@
       .col-lg-9
         p A lo largo del componente, el aprendiz reconoce la relación entre diseño, producto y mercado, identificando cómo una propuesta de moda se configura a partir de conceptos, materiales, consumidores, colecciones, series de producto y estrategias de comunicación. Asimismo, se analiza la manera en que las marcas organizan su portafolio mediante productos de continuidad, lanzamientos limitados, series identitarias y campañas comerciales, lo que permite comprender el papel estratégico del producto dentro del sistema moda.
         .bg-color-4.tarjeta.px-5.py-4
-          p.mb-0 El desarrollo de estos contenidos aporta bases conceptuales para clasificar productos del sistema moda, interpretar sus niveles de mercado y reconocer la función de las colecciones en la proyección de vestuario. De esta forma, el componente ofrece una aproximación inicial al análisis de la industria de la moda, orientada a fortalecer la comprensión del producto, el consumidor y la marca como elementos articulados en los procesos de diseño y marketing.
+          p.mb-0 El desarrollo de estos contenidos aporta bases conceptuales para clasificar productos del sistema moda, interpretar sus niveles de mercado y reconocer la función de las colecciones en la proyección de vestuario. De esta forma, el componente ofrece una aproximación inicial al análisis de la industria de la moda, orientada a fortalecer la comprensión del producto, el consumidor y la marca como elementos articulados en los procesos de diseño y <em>marketing</em>.
 
 </template>
 

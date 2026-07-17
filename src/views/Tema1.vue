@@ -134,7 +134,7 @@
       .row(titulo="Siglo XX").justify-content-center.align-items-center.bg-color-white.tarjeta.p-3.p-lg-4
         .col-lg-6.mb-4.mb-lg-0
           h5 Siglo XX
-          p La moda se masifica con el prêt-à-porter, los medios de comunicación, la cultura juvenil y la producción en serie. La moda se consolida como un sistema integrado.
+          p La moda se masifica con el <em>prêt-à-porter</em>, los medios de comunicación, la cultura juvenil y la producción en serie. La moda se consolida como un sistema integrado.
         .col-lg-4
           figure
             img(src='@/assets/curso/tema1/13.png', alt='alt')
@@ -154,7 +154,7 @@
           .row.justify-content-between.align-items-center
             .col.mb-3.mb-sm-0
               h4.mb-1 Las primeras puntadas de la moda colombiana. La era que definió su rumbo
-              p.mb-0 Lo invitamos a visitar el siguiente enlace en donde se presenta una explicación sobre la historia de la moda en Colombia 
+              p.mb-0 Lo invitamos a visitar el siguiente enlace en donde se presenta una explicación sobre la historia de la moda en Colombia. 
             .col-sm-auto
               a.boton.color-acento-botones.texto-blanco(href="https://codigomalva.com/2025/12/07/historia-moda-colombiana-40-70/" target="_blank")
                 span Enlace web
@@ -183,15 +183,15 @@
             tbody
               tr.bg-color-white
                 td.text-bold Periodo prehispánico en Colombia
-                td Prácticas textiles e indumentarias de comunidades originarias
+                td Prácticas textiles e indumentarias de comunidades originarias.
                 td El vestir se relaciona con materiales locales, organización social, prácticas culturales, territorio y sistemas simbólicos propios.
               tr.bg-color-sintesis
                 td.text-bold Siglos XVI-XVIII en Colombia
-                td Transformaciones coloniales en oficios, materiales y jerarquías sociales
+                td Transformaciones coloniales en oficios, materiales y jerarquías sociales.
                 td Las formas de vestir se configuran entre imposiciones culturales, adaptación local, oficios artesanales y diferenciación social.
               tr.bg-color-white
                 td.text-bold Siglo XIX en Colombia
-                td Influencia francesa e inglesa en sectores urbanos con mayor capacidad económica
+                td Influencia francesa e inglesa en sectores urbanos con mayor capacidad económica.
                 td La moda se relaciona con comercio internacional, distinción social y adopción de referentes europeos en determinados grupos sociales.
               tr.bg-color-sintesis
                 td.text-bold 1907
@@ -203,7 +203,7 @@
                 td El sector textil amplía su estructura empresarial y productiva, aportando al crecimiento de la cadena textil-confección en Colombia.
               tr.bg-color-sintesis
                 td.text-bold Segunda mitad del siglo XX
-                td Expansión de la confección, formación técnica y producción en serie
+                td Expansión de la confección, formación técnica y producción en serie.
                 td La moda colombiana avanza hacia una organización más especializada, con roles técnicos, productivos, comerciales y educativos.
               tr.bg-color-white
                 td.text-bold 1988
@@ -219,11 +219,11 @@
                 td La moda colombiana cuenta con un escenario de articulación entre diseño, confección, marcas, compradores y proyección internacional.
               tr.bg-color-sintesis
                 td.text-bold Décadas de 2000 y 2010
-                td Crecimiento de marcas, diseño de autor, formación profesional y mercados especializados
+                td Crecimiento de marcas, diseño de autor, formación profesional y mercados especializados.
                 td El sistema moda colombiano integra identidad, comunicación de marca, profesionalización, innovación y conexión con mercados externos.
               tr.bg-color-white
                 td.text-bold Década de 2020
-                td Incorporación de sostenibilidad, circularidad, digitalización y lectura territorial del diseño
+                td Incorporación de sostenibilidad, circularidad, digitalización y lectura territorial del diseño.
                 td La moda colombiana amplía su campo de acción hacia modelos responsables, propuestas con identidad cultural y procesos productivos más conscientes.
     
     separador
@@ -255,7 +255,7 @@
         img.titulo-con-imagen__imagen(src="@/assets/componentes/1.svg")
         h3.titulo-con-imagen__texto Clasificación del sistema moda
     
-    p.mb-5 El sistema moda puede clasificarse desde diferentes criterios, según el propósito del análisis. Para el estudio técnico y productivo del sector, resultan relevantes cuatro formas de clasificación: por cadena de valor, por sector productivo, por nivel de mercado y por temporalidad del producto; como se muestra a continuación:
+    p.mb-5 El sistema moda puede clasificarse desde diferentes criterios, según el propósito del análisis. Para el estudio técnico y productivo del sector, resultan relevantes cuatro formas de clasificación: por cadena de valor, por sector productivo, por nivel de mercado y por temporalidad del producto; como se detalla a continuación:
     
 
     .row.justify-content-center.align-items-center.mb-5
@@ -274,7 +274,7 @@
           .bg-color-3.p-4.h-100.box-shadow
             img(src='@/assets/curso/tema1/20.svg' alt='AvatarTop' , style="max-width: 90px").mx-auto.mb-3
             h4.text-center.mb-4.bg-color-2.p-2 Según el nivel de mercado
-            p.text-center Alta costura, lujo, diseño de autor, prêt-à-porter, moda comercial, moda masiva y moda rápida.
+            p.text-center Alta costura, lujo, diseño de autor, <em>prêt-à-porter</em>, moda comercial, moda masiva y moda rápida.
             p.mb-0.text-center <b>Descripción técnica</b>: clasifica los productos según exclusividad, precio, volumen de producción, grado de personalización, posicionamiento de marca y público objetivo.
           .bg-color-3.p-4.h-100.box-shadow
             img(src='@/assets/curso/tema1/20.svg' alt='AvatarTop' , style="max-width: 90px").mx-auto.mb-3
@@ -497,7 +497,7 @@
               h2(data-aos="fade-left").mb-4 Pódcast
               p Lo invitamos al siguiente pódcast:
               TarjetaAudio.color-acento-botones.bg-color-white.mb-3(
-                texto="Pendiente vincular pódcast"
+                texto="Moda más allá de la ropa, historia, industria y cultura."
                 tiempo
                 :audio="require('../assets/curso/podcast/podcast1.mp3')"
               )
@@ -560,7 +560,10 @@
           h5 Función de los perfiles de consumidor en moda
           p.mb-0 Los perfiles de consumidor de moda permiten interpretar cómo diferentes grupos se aproximan al vestir. Algunos consumidores priorizan la exclusividad, otros la comodidad, la tendencia, el precio, la sostenibilidad, la marca o la permanencia de estilos clásicos. Esta información orienta decisiones de diseño, producción y comunicación, evitando que el producto se formule sin relación clara con el mercado al que se dirige.
     
-    p.mb-5 Clasificación de perfiles de consumidor de moda
+    .titulo-con-imagen.mb-5(data-aos="fade-right")
+      .titulo-con-imagen__fondo
+        img.titulo-con-imagen__imagen(src="@/assets/componentes/1.svg")
+        h3.titulo-con-imagen__texto Clasificación de perfiles de consumidor de moda
 
     .row.mb-5.align-items-center.justify-content-center
       .col-md-8.col-lg-3.mb-3.mb-lg-0.order-lg-2
@@ -700,7 +703,7 @@
         .col-lg-auto.mb-lg-0.order-lg-2
           img.d-none.d-lg-flex(src="@/assets/curso/tema1/51.svg").mx-auto
         .col-lg.order-lg-1
-          h5 Concepto técnico de colección de moda.
+          h5 Concepto técnico de colección de moda
           p.mb-0 Una colección de moda es un conjunto planificado de productos que comparten un eje conceptual y responden a un consumidor, una temporada, una ocasión de uso o una estrategia de mercado. Su coherencia se reconoce en la relación entre las prendas, los materiales, los acabados, las proporciones, los detalles constructivos, la comunicación de marca y las condiciones de producción.
     
     .titulo-con-imagen.mb-5(data-aos="fade-right")
@@ -717,7 +720,6 @@
         .col
           .row.justify-content-between.align-items-center
             .col.mb-3.mb-sm-0
-              h4.mb-1 Componentes principales de una colección de moda
               p.mb-0 Lo invitamos a descargar el siguiente documento donde se muestran los diferentes componentes de una colección de moda y sus funciones.
             .col-sm-auto
               a.boton.color-acento-botones.texto-blanco(:href="obtenerLink('/downloads/Anexo1_Componentes_colección_moda.pdf')" target="_blank")
@@ -820,7 +822,7 @@
             .col-lg-8.mb-4.mb-md-0.order-lg-1
               h4 Desarrollo técnico
               p Elaborar fichas técnicas, moldes, prototipos, pruebas de ajuste, consumos y rutas operacionales.
-              p.mb-0 <b>Producto o resultado esperado</b>: información productiva necesaria para evaluar fabricación, costos y calidad
+              p.mb-0 <b>Producto o resultado esperado</b>: información productiva necesaria para evaluar fabricación, costos y calidad.
           .row.justify-content-center.align-items-center.p-3.p-lg-4
             .col-lg-4.mb-3.mb-lg-0.order-lg-2
               figure

@@ -2,7 +2,7 @@ export default {
   global: {
     Name: 'Fundamentos del sistema moda',
     Description:
-      'El componente formativo fundamentos del sistema moda aborda los conceptos esenciales de la moda como fenómeno cultural, productivo, comercial y comunicativo. Sus contenidos integran el recorrido histórico de la moda, la estructura del sistema moda, las gamas de mercado, los perfiles de consumidor, las colecciones, los productos y las series de producto, con el fin de reconocer cómo se organizan, clasifican y proyectan las propuestas de moda dentro de la industria contemporánea.',
+      'El componente formativo Fundamentos del sistema moda aborda los conceptos esenciales de la moda como fenómeno cultural, productivo, comercial y comunicativo. Sus contenidos integran el recorrido histórico de la moda, la estructura del sistema moda, las gamas de mercado, los perfiles de consumidor, las colecciones, los productos y las series de producto, con el fin de reconocer cómo se organizan, clasifican y proyectan las propuestas de moda dentro de la industria contemporánea.',
     imagenBannerPrincipal: require('@/assets/curso/portada/banner-principal.png'),
     fondoBannerPrincipal: require('@/assets/curso/portada/fondo-banner-principal.png'),
     imagenesDecorativasBanner: [
@@ -147,7 +147,7 @@ export default {
       {
         icono: 'fas fa-file-pdf',
         titulo: 'Descargar PDF',
-        download: 'downloads/124108_CF10_DU.zip',
+        download: 'downloads/124108_CF10_CFA.zip',
       },
       {
         icono: 'fas fa-download',
@@ -266,19 +266,19 @@ export default {
     },
     {
       referencia:
-        'Niebles Cifuentes, L. (2018). <em>Moda sustentable, moda amigable: Una oportunidad de mercado</em> (Trabajo de grado de pregrado). Pontificia Universidad Javeriana.',
+        'Niebles Cifuentes, L. (2018). <em>Moda sustentable, moda amigable, una oportunidad de mercado</em> (Trabajo de grado de pregrado). Pontificia Universidad Javeriana.',
       link:
         'https://apidspace.javeriana.edu.co/server/api/core/bitstreams/b1c77dd1-0803-47cb-bfef-93997fb06ef4/content',
     },
     {
       referencia:
-        'Peña, S. (2009). <em>De los textiles a las apariencias: Los tránsitos de la moda en Colombia entre 1970 y 1999.</em> Academia.edu.',
+        'Peña, S. (2009). <em>Enseñar y aprender. La transmisión del conocimiento en la moda y el textil.</em>',
       link:
         'https://www.academia.edu/75326169/Ense%C3%B1ar_y_aprender_moda_y_textil_en_el_siglo_XXI',
     },
     {
       referencia:
-        'Zuluaga García, C. P., & Alvira Gómez, L. E. (2018). <em>Moda sostenible: Retos del siglo XXI en la enseñanza aprendizaje.</em> Editorial CUN.',
+        'Zuluaga García, C. P., & Alvira Gómez, L. E. (2018). <em>Moda sostenible. Retos del siglo XXI en la enseñanza aprendizaje.</em> Editorial CUN.',
       link: 'https://repositorio.cun.edu.co/handle/cun/11064',
     },
   ],
@@ -289,12 +289,12 @@ export default {
         {
           nombre: 'Claudia Johanna Gómez Pérez',
           cargo:
-            'Responsable Nacional Ecosistema de Recursos Educativos Digitales (RED) - Profesional 06',
+            'Profesional G06. Responsable Ecosistema Virtual de Recursos Educativos Digitales',
           centro: 'Centro Agroturistico - Regional Santander',
         },
         {
-          nombre: 'Miguel de Jesús Paredes Maestre ',
-          cargo: 'Responsable de la línea de producción ',
+          nombre: 'Miguel de Jesús Paredes Maestre',
+          cargo: 'Responsable de la línea de producción',
           centro: 'Centro de Comercio y Servicios - Regional Atlántico',
         },
       ],
@@ -303,19 +303,19 @@ export default {
       titulo: 'CONTENIDO INSTRUCCIONAL',
       autores: [
         {
-          nombre: 'Nicolás Cruz Ríos ',
-          cargo: ' Experto Temático ',
-          centro: 'Centro de Comercio y Servicios - Regional Atlántico ',
+          nombre: 'Nicolás Cruz Ríos',
+          cargo: ' Experto temático',
+          centro: 'Centro de Comercio y Servicios - Regional Atlántico',
         },
         {
-          nombre: 'Paola Angélica Castro Salazar ',
+          nombre: 'Paola Angélica Castro Salazar',
           cargo: ' Experta temática',
           centro: 'Centro Agroturístico - Regional Santander',
         },
         {
-          nombre: 'Jair Coll Gallardo ',
-          cargo: ' Evaluador instruccional ',
-          centro: 'Centro de Comercio y Servicios - Regional Atlántico ',
+          nombre: 'Jair Coll Gallardo',
+          cargo: ' Evaluador instruccional',
+          centro: 'Centro de Comercio y Servicios - Regional Atlántico',
         },
       ],
     },
@@ -323,22 +323,22 @@ export default {
       titulo: 'DISEÑO Y DESARROLLO DE RECURSOS EDUCATIVOS DIGITALES',
       autores: [
         {
-          nombre: 'Andrés Felipe Herrera Roldan  ',
+          nombre: 'Andrés Felipe Herrera Roldan ',
           cargo: 'Diseñador de contenidos',
           centro: 'Centro de Comercio y Servicios - Regional Atlántico',
         },
         {
-          nombre: 'Carlos Andrés Diaz Pinto ',
+          nombre: 'Carlos Andrés Diaz Pinto',
           cargo: 'Desarrollador <i>full stack</i>',
           centro: 'Centro de Comercio y Servicios - Regional Atlántico',
         },
         {
-          nombre: 'Nelson Iván Vera Briceño ',
+          nombre: 'Nelson Iván Vera Briceño',
           cargo: 'Animador y productor audiovisual',
           centro: 'Centro de Comercio y Servicios - Regional Atlántico',
         },
         {
-          nombre: 'Alexander Acosta ',
+          nombre: 'Alexander Acosta',
           cargo: 'Animador y productor audiovisual',
           centro: 'Centro de Comercio y Servicios - Regional Atlántico',
         },
@@ -348,23 +348,23 @@ export default {
       titulo: 'VALIDACIÓN RECURSO EDUCATIVO DIGITAL',
       autores: [
         {
-          nombre: 'Luz Karime Amaya Cabra ',
-          cargo: 'Evaluador de contenidos inclusivos y accesibles',
+          nombre: 'Luz Karime Amaya Cabra',
+          cargo: 'Evaluadora de contenidos inclusivos y accesibles',
           centro: 'Centro de Comercio y Servicios - Regional Atlántico',
         },
         {
-          nombre: 'Laura Daniela Burgos Rueda ',
-          cargo: 'Evaluador de contenidos inclusivos y accesibles',
+          nombre: 'Laura Daniela Burgos Rueda',
+          cargo: 'Evaluadora de contenidos inclusivos y accesibles',
           centro: 'Centro de Comercio y Servicios - Regional Atlántico',
         },
         {
-          nombre: 'Jonathan Adié Villafañe ',
+          nombre: 'Jonathan Adié Villafañe',
           cargo: 'Validador y vinculador de recursos digitales',
           centro: 'Centro de Comercio y Servicios - Regional Atlántico',
         },
         {
-          nombre: 'Karine Isabel Ospino Fritz ',
-          cargo: 'Validador y vinculador de recursos digitales',
+          nombre: 'Karine Isabel Ospino Fritz',
+          cargo: 'Validadora y vinculadora de recursos digitales',
           centro: 'Centro de Comercio y Servicios - Regional Atlántico',
         },
       ],

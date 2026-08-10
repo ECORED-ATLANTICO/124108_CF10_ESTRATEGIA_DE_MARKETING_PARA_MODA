@@ -133,7 +133,7 @@ export default {
         {
           id: 4,
           texto:
-            '¿Cuál propósito cumplen los diferentes tipos existentes dentro de la moda?',
+            '¿Qué propósito cumplen los diferentes tipos existentes dentro de la moda?',
           imagen: require('@/assets/actividad/imagen4.png'),
           barajarRespuestas: true,
           opciones: [
@@ -158,7 +158,7 @@ export default {
             {
               id: 'd',
               texto:
-                'Sustituir completamente las estrategias comerciales relacionadas con los productos de moda actuales.',
+                'Sustituir completamente estrategias comerciales relacionadas con productos de moda actuales.',
               esCorrecta: false,
             },
           ],
@@ -245,7 +245,7 @@ export default {
             {
               id: 'a',
               texto:
-                'Desconectar visualmente los productos respecto al público objetivo del mercado actual.',
+                'Desconectar visualmente productos respecto al público objetivo del mercado actual.',
               esCorrecta: false,
             },
             {
@@ -315,7 +315,7 @@ export default {
             {
               id: 'a',
               texto:
-                'Reduce la visibilidad comercial frente a consumidores potenciales en mercados diversos.',
+                'Reduce la visibilidad comercial frente consumidores potenciales en mercados diversos.',
               esCorrecta: false,
             },
             {
@@ -327,7 +327,7 @@ export default {
             {
               id: 'c',
               texto:
-                'Fortalece el reconocimiento, diferenciación y comunicación estratégica de los productos.',
+                'Fortalece el reconocimiento, diferenciación y comunicación estratégica de productos.',
               esCorrecta: true,
             },
             {
@@ -397,7 +397,7 @@ export default {
             {
               id: 'c',
               texto:
-                'Eliminar oportunidades competitivas dentro de las organizaciones del sector de la moda actual.',
+                'Eliminar oportunidades competitivas dentro de las organizaciones del sector moda actual.',
               esCorrecta: false,
             },
             {
@@ -413,7 +413,7 @@ export default {
         {
           id: 12,
           texto:
-            '¿Qué permiten identificar los estilos presentes dentro del sistema moda actual?',
+            '¿Qué permiten identificar los estilos presentes dentro del sistema de moda actual?',
           imagen: require('@/assets/actividad/imagen2.png'),
           barajarRespuestas: true,
           opciones: [
@@ -461,7 +461,7 @@ export default {
             {
               id: 'b',
               texto:
-                'Eliminar la diferenciación entre líneas comerciales dirigidas a distintos consumidores.',
+                'Eliminar la diferenciación entre líneas comerciales dirigidas y distintos consumidores.',
               esCorrecta: false,
             },
             {
@@ -483,14 +483,14 @@ export default {
         {
           id: 14,
           texto:
-            '¿Qué criterio influye directamente en la clasificación de las colecciones comerciales actuales?',
+            '¿Qué criterio influye directamente en la clasificación de colecciones comerciales actuales?',
           imagen: require('@/assets/actividad/imagen4.png'),
           barajarRespuestas: true,
           opciones: [
             {
               id: 'a',
               texto:
-                'Exclusivamente la ubicación geográfica donde opera la organización productiva principal.',
+                'Exclusivamente ubicación geográfica donde opera la organización productiva principal.',
               esCorrecta: false,
             },
             {
@@ -502,7 +502,7 @@ export default {
             {
               id: 'c',
               texto:
-                'La eliminación de atributos diferenciadores presentes en productos comercializados actualmente.',
+                'Eliminación de atributos diferenciadores presentes en los productos comercializados actualmente.',
               esCorrecta: false,
             },
             {
@@ -525,7 +525,7 @@ export default {
             {
               id: 'a',
               texto:
-                'Reducir la adaptación empresarial frente a cambios periódicos del mercado actual.',
+                'Reducir la adaptación empresarial frente a los cambios periódicos del mercado actual.',
               esCorrecta: false,
             },
             {
@@ -553,14 +553,14 @@ export default {
         {
           id: 16,
           texto:
-            '¿Qué caracteriza a los productos clasificados dentro de las diferentes categorías del sistema moda?',
+            '¿Qué caracteriza a los productos clasificados dentro de diferentes categorías del sistema moda?',
           imagen: require('@/assets/actividad/imagen6.png'),
           barajarRespuestas: true,
           opciones: [
             {
               id: 'a',
               texto:
-                'Su diferenciación según función, uso y segmento objetivo comercial.',
+                'Su diferenciación según la función, uso y segmento objetivo comercial.',
               esCorrecta: true,
             },
             {
@@ -601,13 +601,13 @@ export default {
             {
               id: 'b',
               texto:
-                'La eliminación del valor agregado dentro de las propuestas comerciales actuales.',
+                'La eliminación de valor agregado dentro de propuestas comerciales actuales.',
               esCorrecta: false,
             },
             {
               id: 'c',
               texto:
-                'El reemplazo permanente de prendas utilizadas por consumidores contemporáneos.',
+                'El reemplazo permanente de prendas utilizadas por los consumidores contemporáneos.',
               esCorrecta: false,
             },
             {
@@ -630,7 +630,7 @@ export default {
             {
               id: 'a',
               texto:
-                'Eliminan la diferenciación cultural presente en propuestas comerciales contemporáneas actuales.',
+                'Eliminan la diferenciación cultural presente en las propuestas comerciales contemporáneas actuales.',
               esCorrecta: false,
             },
             {
@@ -648,7 +648,7 @@ export default {
             {
               id: 'd',
               texto:
-                'Sustituyen completamente las categorías tradicionales dentro de mercados especializados diversos actualmente.',
+                'Sustituyen completamente categorías tradicionales dentro mercados especializados diversos actualmente.',
               esCorrecta: false,
             },
           ],
@@ -677,7 +677,7 @@ export default {
             {
               id: 'c',
               texto:
-                'Eliminar la diversidad estratégica presente dentro de los portafolios empresariales actuales.',
+                'Eliminar la diversidad estratégica presente dentro portafolios empresariales actuales.',
               esCorrecta: false,
             },
             {
@@ -700,25 +700,25 @@ export default {
             {
               id: 'a',
               texto:
-                'Reducir la visibilidad de los productos durante acciones promocionales empresariales específicas.',
+                'Reducir la visibilidad de productos durante las acciones promocionales empresariales específicas.',
               esCorrecta: false,
             },
             {
               id: 'b',
               texto:
-                'Eliminar la coherencia entre la comunicación comercial y los objetivos organizacionales actuales.',
+                'Eliminar la coherencia entre comunicación comercial y objetivos organizacionales actuales.',
               esCorrecta: false,
             },
             {
               id: 'c',
               texto:
-                'Sustituir completamente las actividades promocionales utilizadas por marcas contemporáneas actualmente.',
+                'Sustituir completamente las actividades promocionales utilizadas por las marcas contemporáneas actualmente.',
               esCorrecta: false,
             },
             {
               id: 'd',
               texto:
-                'Apoyar objetivos promocionales asociados a acciones estratégicas temporales.',
+                'Apoyar los objetivos promocionales asociados a las acciones estratégicas temporales.',
               esCorrecta: true,
             },
           ],

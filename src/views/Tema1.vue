@@ -101,9 +101,9 @@
         .col-lg-4
           figure
             img(src='@/assets/curso/tema1/8.png', alt='alt')
-      .row(titulo="Edad media (periodo)").justify-content-center.align-items-center.bg-color-white.tarjeta.p-3.p-lg-4
+      .row(titulo="Edad Media (periodo)").justify-content-center.align-items-center.bg-color-white.tarjeta.p-3.p-lg-4
         .col-lg-6.mb-4.mb-lg-0
-          h5.mb-0 Edad media (periodo)
+          h5.mb-0 Edad Media (periodo)
           p Siglos V al XV.
           p El vestuario refleja jerarquías, gremios y normas suntuarias. El comercio de telas y los oficios textiles ganan importancia.
         .col-lg-4
@@ -153,8 +153,8 @@
         .col
           .row.justify-content-between.align-items-center
             .col.mb-3.mb-sm-0
-              h4.mb-1 Las primeras puntadas de la moda colombiana. La era que definió su rumbo
-              p.mb-0 Lo invitamos a visitar el siguiente enlace en donde se presenta una explicación sobre la historia de la moda en Colombia. 
+              h4.mb-1 Las primeras puntadas de la moda colombiana, la era que definió su rumbo
+              p.mb-0 Lo invitamos a visitar el siguiente enlace, donde se presenta una explicación sobre la historia de la moda en Colombia. 
             .col-sm-auto
               a.boton.color-acento-botones.texto-blanco(href="https://codigomalva.com/2025/12/07/historia-moda-colombiana-40-70/" target="_blank")
                 span Enlace web
@@ -434,7 +434,7 @@
           .row.tarjeta.color-acento-botones--borde.p-4.justify-content-center(titulo="Lujo")
             .col-xl-6.mb-3.mb-xl-0
               h4 Lujo
-              p Productos de alto valor simbólico, materiales seleccionados, posicionamiento premium y fuerte identidad de marca.
+              p Productos de alto valor simbólico, materiales seleccionados, posicionamiento prémium y fuerte identidad de marca.
               p.mb-0 <b>Tipo de producción</b>: controlada, con énfasis en calidad, exclusividad y experiencia de marca.
             .col-md-8.col-xl-6.mb-3.mb-xl-0
               figure
@@ -467,7 +467,7 @@
             .col-xl-6.mb-3.mb-xl-0
               h4 Moda masiva
               p Productos de alta rotación, precios accesibles y distribución amplia.
-              p.mb-0 <b>Tipo de producción</b>: industrial en grandes volúmenes..
+              p.mb-0 <b>Tipo de producción</b>: industrial en grandes volúmenes.
             .col-md-8.col-xl-6.mb-3.mb-xl-0
               figure
                 img(src="@/assets/curso/tema1/37.png")
@@ -482,7 +482,7 @@
     
     .bg-color-2.tarjeta.p-4.mb-5
       p.mb-0 En síntesis, el sistema moda constituye una estructura compleja donde convergen creación, técnica, industria, mercado, comunicación y consumo. Su clasificación facilita el reconocimiento de los procesos que intervienen en el desarrollo de productos de vestuario y permite establecer relaciones entre las decisiones de diseño, las capacidades productivas, los modelos comerciales y las transformaciones culturales del vestir.
-             
+          
     .row.justify-content-center.align-items-center.mb-5
       .col-lg-5.mb-3.mb-lg-0.order-lg-2
         figure
@@ -532,7 +532,7 @@
           .row.justify-content-between.align-items-center
             .col.mb-3.mb-sm-0
               h4.mb-1 Gamas de mercado. Universos de vestuarios - ocasiones de uso.
-              p.mb-0 Para fortalecer la comprensión del tema, se invita a ir al siguiente recurso audiovisual, donde se explica de manera completa la manera de como identificar las características, componentes, composición, categorización y detalles en el análisis y comprensión de las prendas de vestir.
+              p.mb-0 Para fortalecer la comprensión del tema, se invita a ir al siguiente recurso audiovisual, donde se explica de manera completa la manera de identificar las características, componentes, composición, categorización y detalles en el análisis y comprensión de las prendas de vestir.
             .col-sm-auto
               a.boton.color-acento-botones.texto-blanco(href="https://www.youtube.com/watch?v=YXT2HTjiB3Q&t=2s" target="_blank")
                 span Enlace web
@@ -711,7 +711,7 @@
         img.titulo-con-imagen__imagen(src="@/assets/componentes/1.svg")
         h3.titulo-con-imagen__texto Componentes principales de una colección de moda
 
-    p.mb-5 La organización de una colección requiere integrar componentes conceptuales, técnicos y comerciales. Estos elementos orientan el desarrollo del producto y facilitan la conexión entre diseño, producción y mercado. En el siguiente enlace se detallan los componentes más importantes de una colección de moda.
+    p.mb-5 La organización de una colección requiere integrar componentes conceptuales, técnicos y comerciales. Estos elementos orientan el desarrollo del producto y facilitan la conexión entre diseño, producción y mercado.
 
     .tarjeta.bg-color-12.p-4.mb-5
       .row.justify-content-around.align-items-center
@@ -722,7 +722,7 @@
             .col.mb-3.mb-sm-0
               p.mb-0 Lo invitamos a descargar el siguiente documento donde se muestran los diferentes componentes de una colección de moda y sus funciones.
             .col-sm-auto
-              a.boton.color-acento-botones.texto-blanco(:href="obtenerLink('/downloads/Anexo1_Componentes_colección_moda.pdf')" target="_blank")
+              a.boton.color-acento-botones.texto-blanco(:href="obtenerLink('/downloads/Anexo1_Componentes_coleccion_moda.pdf')" target="_blank")
                 span Descargar
                 i.fas.fa-file-download
     

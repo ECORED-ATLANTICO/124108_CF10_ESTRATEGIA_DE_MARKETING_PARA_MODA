@@ -173,10 +173,10 @@
         .col
           .row.justify-content-between.align-items-center
             .col.mb-3.mb-sm-0
-              h4.mb-1 Categoría de prendas – tipologías- bitácora de formas.
+              h4.mb-1 Categoría de prendas - tipologías - bitácora de formas.
               p.mb-0 Para fortalecer la comprensión del tema, se invita a ir al siguiente recurso audiovisual, donde se identifican las características, componentes, composición, categorización y detalles de las prendas de vestir.
             .col-sm-auto
-              a.boton.color-acento-botones.texto-blanco(href="https://www.youtube.com/watch?v=MPaIS2YaAXM&t=462s " target="_blank")
+              a.boton.color-acento-botones.texto-blanco(href="https://www.youtube.com/watch?v=MPaIS2YaAXM" target="_blank")
                 span Enlace web
                 i.fas.fa-file-download
       
@@ -553,10 +553,10 @@
               tr.bg-color-white
                 td.text-bold Código narrativo
                 td Relaciona el producto con valores, territorio, cultura, oficio o estilo de vida.
-                td Products vinculados con una historia de marca o una postura conceptual
+                td Productos vinculados con una historia de marca o una postura conceptual
 
     .bg-color-2.tarjeta.p-4.mb-5
-      p.mb-0.text-center Las series de marca cumplen un papel estratégico en la recordación y diferenciación. Su desarrollo requiere coherencia entre producto, comunicación, experiencia de compra y promesa de valor.
+      p.mb-0 Las series de marca cumplen un papel estratégico en la recordación y diferenciación. Su desarrollo requiere coherencia entre producto, comunicación, experiencia de compra y promesa de valor.
 
     .titulo-con-imagen.mb-5(data-aos="fade-right")
       .titulo-con-imagen__fondo

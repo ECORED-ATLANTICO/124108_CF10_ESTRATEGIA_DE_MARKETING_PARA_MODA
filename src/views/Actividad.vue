@@ -238,7 +238,7 @@ export default {
         {
           id: 7,
           texto:
-            '¿Qué función cumple la imagen de moda dentro de la comunicación estratégica empresarial?',
+            '¿Qué función cumple la imagen de la moda dentro de la comunicación estratégica empresarial?',
           imagen: require('@/assets/actividad/imagen7.png'),
           barajarRespuestas: true,
           opciones: [
@@ -623,7 +623,7 @@ export default {
         {
           id: 18,
           texto:
-            '¿Qué aportan la joyería y las artesanías dentro de la oferta del sistema moda actual?',
+            '¿Qué aportan la joyería y las artesanías dentro de la oferta del sistema de moda actual?',
           imagen: require('@/assets/actividad/imagen8.png'),
           barajarRespuestas: true,
           opciones: [
@@ -648,7 +648,7 @@ export default {
             {
               id: 'd',
               texto:
-                'Sustituyen completamente categorías tradicionales dentro mercados especializados diversos actualmente.',
+                'Sustituyen completamente las categorías tradicionales dentro mercados especializados diversos actualmente.',
               esCorrecta: false,
             },
           ],
